@@ -1,0 +1,93 @@
+{
+    "version": "2.0-nextgen",
+    "general": {
+        "sound_feedback": true,
+        "show_hud": true,
+        "hud_theme": "cyberpunk",
+        "dark_canvas": false,
+        "num_hands": 2,
+        "fps_limit": 60,
+        "release_grace_s": 0.25
+    },
+    "air_mouse": {
+        "enabled": false,
+        "speed": 1.4,
+        "one_euro_min_cutoff": 1.2,
+        "one_euro_beta": 0.05,
+        "scroll_speed": 1.2,
+        "active_box": {
+            "x_min": 0.15,
+            "x_max": 0.85,
+            "y_min": 0.15,
+            "y_max": 0.8
+        }
+    },
+    "gestures": {
+        "THUMB_UP": {
+            "action": "VOLUME_UP",
+            "hold_s": 0.28,
+            "repeat_s": 0.1,
+            "description": "Increase system volume"
+        },
+        "THUMB_DOWN": {
+            "action": "VOLUME_DOWN",
+            "hold_s": 0.28,
+            "repeat_s": 0.1,
+            "description": "Decrease system volume"
+        },
+        "POINT_RIGHT": {
+            "action": "RIGHT",
+            "hold_s": 0.28,
+            "repeat_s": 1.0,
+            "description": "Next slide / Fast-forward"
+        },
+        "POINT_LEFT": {
+            "action": "LEFT",
+            "hold_s": 0.28,
+            "repeat_s": 1.0,
+            "description": "Previous slide / Rewind"
+        },
+        "PINCH_INDEX": {
+            "action": "SPACE",
+            "hold_s": 0.18,
+            "repeat_s": null,
+            "description": "Space (Play/Pause/Click)"
+        },
+        "FIST": {
+            "action": "MUTE",
+            "hold_s": 0.4,
+            "repeat_s": null,
+            "description": "Mute / Unmute audio"
+        },
+        "PEACE": {
+            "action": "SCREENSHOT",
+            "hold_s": 0.45,
+            "repeat_s": null,
+            "description": "Take snippet screenshot"
+        },
+        "ROCK_ON": {
+            "action": "F11",
+            "hold_s": 0.45,
+            "repeat_s": null,
+            "description": "Toggle Fullscreen"
+        },
+        "SWIPE_LEFT": {
+            "action": "APP_SWITCH",
+            "hold_s": 0.0,
+            "repeat_s": null,
+            "description": "Switch window (Alt+Tab)"
+        },
+        "SWIPE_RIGHT": {
+            "action": "APP_SWITCH",
+            "hold_s": 0.0,
+            "repeat_s": null,
+            "description": "Switch window"
+        },
+        "SWIPE_DOWN": {
+            "action": "DESKTOP",
+            "hold_s": 0.0,
+            "repeat_s": null,
+            "description": "Minimize All / Show Desktop"
+        }
+    }
+}

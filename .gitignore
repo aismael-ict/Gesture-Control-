@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Large distribution binaries and PyInstaller internal bundles (>100MB)
+_internal/
+*.exe
+extracted_PYZ.pyz
+extracted_pyz_modules/
+extracted_hand_control.pyc
+*.part
+
+# Environment and IDE
+.venv/
+venv/
+env/
+.idea/
+.vscode/
+
+# System files
+Thumbs.db
+Desktop.ini
+.DS_Store

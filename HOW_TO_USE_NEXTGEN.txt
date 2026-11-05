@@ -1,0 +1,70 @@
+=============================================================================
+                          HAND CONTROL NEXT-GEN 2.0
+=============================================================================
+
+Welcome to Hand Control Next-Gen 2.0: an advanced, touchless AI-powered 
+gesture control platform with Air Mouse, dynamic motion swipes, multi-hand 
+tracking, and low-latency Windows system integration.
+
+QUICK START
+-----------
+1. Run `run_nextgen.bat` or execute `python hand_control_nextgen.py`.
+2. A preview window opens showing the camera feed with the futuristic neon
+   hand skeleton and HUD.
+3. Bring your hand into view. Click the application you want to control once.
+
+HOTKEYS (IN PREVIEW WINDOW)
+---------------------------
+  M .......... Toggle Air Mouse mode (touchless cursor control)
+  P .......... Pause / Resume gesture tracking
+  D .......... Toggle Dark Cyber Canvas (hides room background)
+  H .......... Toggle HUD overlays (minimal camera view)
+  Q or Esc ... Quit cleanly
+
+GESTURES & CAPABILITIES
+-----------------------
+
+1. AIR MOUSE MODE (Press 'M' to toggle)
+   - Move: Point with your Index fingertip inside the active interaction box.
+     Smooth 1€ (One-Euro) filtering eliminates all tremor and jitter.
+   - Left Click: Pinch Index finger to Thumb tip.
+   - Drag & Drop: Hold the Index+Thumb pinch and move your hand.
+   - Right Click: Pinch Middle finger to Thumb tip.
+   - Air Scroll: Extend Index and Middle fingers together and move up/down.
+
+2. MEDIA & VOLUME GESTURES
+   - Thumbs Up ................. Volume Up (repeats while held)
+   - Thumbs Down ............... Volume Down (repeats while held)
+   - Fist (curled tight) ....... Mute / Unmute audio
+
+3. NAVIGATION & PRESENTATION GESTURES
+   - Point Right (Index) ....... Right Arrow / Next Slide / Fast-forward
+   - Point Left (Index) ........ Left Arrow / Previous Slide / Rewind
+   - Pinch (Index + Thumb) ..... Spacebar (Play/Pause / Confirm)
+
+4. POWER USER SHORTCUTS
+   - Peace / V-Sign (Index + Middle straight) .. Screenshot (Win + Shift + S)
+   - Rock On (Index + Pinky straight) ......... Toggle Fullscreen (F11)
+   - Open Palm ("Stop" 5 fingers open) ........ Freeze pointer / Neutral pose
+
+5. DYNAMIC SWIPES (Fast hand motion)
+   - Swipe Left / Right ........ Switch Active App (Alt + Tab)
+   - Swipe Down ................ Minimize All / Show Desktop (Win + D)
+
+MULTI-HAND CAPABILITY
+---------------------
+Tracks up to 2 hands simultaneously. You can use your Left hand for Volume and
+Media while using your Right hand for Air Mouse navigation!
+
+CUSTOMIZATION (config.json)
+---------------------------
+All thresholds, sensitivities, audio feedback settings, and key mappings are
+stored in `config.json`. You can modify `config.json` to customize keybindings
+for YouTube, PowerPoint, VLC, games, or web browsing.
+
+PRIVACY & PERFORMANCE
+---------------------
+- 100% on-device local execution using Google MediaPipe Hand Landmarker.
+- No network requests, no telemetry, and no video frames are ever recorded or sent.
+=============================================================================
+
